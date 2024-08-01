@@ -1,8 +1,9 @@
+package GateModule;
+
 import ParkingSpotPack.ParkingSpot;
 import ParkingSpotPack.ParkingSpotManager;
 import ParkingSpotPack.ParkingSpotManagerFactory;
 import VehiclePack.Vehicle;
-import VehiclePack.VehicleType;
 
 import java.util.List;
 

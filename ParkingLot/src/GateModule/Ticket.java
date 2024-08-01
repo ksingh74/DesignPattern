@@ -1,3 +1,5 @@
+package GateModule;
+
 import ParkingSpotPack.ParkingSpot;
 import VehiclePack.Vehicle;
 
@@ -9,5 +11,13 @@ public class Ticket {
         this.entryTime = entryTime;
         this.vehicle = vehicle;
         this.parkingSpot = parkingSpot;
+    }
+
+    public ParkingSpot getParkingSpot() {
+        return parkingSpot;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 }
